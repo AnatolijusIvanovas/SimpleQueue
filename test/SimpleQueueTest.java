@@ -20,5 +20,12 @@ public class SimpleQueueTest {
         assertEquals(125, queue.array[queue.lastElement]);
         assertEquals(2, queue.numberOfElements);
     }
+    @Test() public void canRemoveElementFromQueue() {
+        queue.addElement(42);
+        queue.addElement(43);
+        queue.removeElement();
+        assertEquals(43, queue.array[queue.firstElement]);
+        assertEquals(1, queue.numberOfElements);
+    }
 
 }

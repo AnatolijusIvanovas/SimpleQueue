@@ -21,4 +21,8 @@ public class SimpleQueue {
         array[++lastElement] = element;
         numberOfElements++;
     }
+
+    public void removeElement() {
+
+    }
 }

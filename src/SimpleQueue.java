@@ -3,14 +3,14 @@
  */
 public class SimpleQueue {
 
-    int[] queue;
+    int[] array;
     int maxSize;
     int firstElement;
     int lastElement;
     int numberOfElements;
 
     public SimpleQueue(int maxSize) {
-        this.queue = new int[maxSize];
+        this.array = new int[maxSize];
         this.maxSize = maxSize;
         this.firstElement = 0;
         this.lastElement = -1;
@@ -18,7 +18,7 @@ public class SimpleQueue {
     }
 
     public void addElement(int element) {
-        queue[++lastElement] = element;
+        array[++lastElement] = element;
         numberOfElements++;
     }
 }

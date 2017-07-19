@@ -18,6 +18,7 @@ public class SimpleQueue {
     }
 
     public void addElement(int element) {
-
+        queue[++lastElement] = element;
+        numberOfElements++;
     }
 }

@@ -13,7 +13,7 @@ public class SimpleQueueTest {
     @Test public void canCreateQueueWithMaxSizeParameter() {
         assertEquals(25, queue.maxSize);
     }
-    @Test public void canCreateFirstElementIndex() { assertEquals(0, queue.firstElement);}
-    @Test public void canCreateLastElementIndex() { assertEquals(-1, queue.lastElement);}
+    @Test public void canCreateFirstElementIndex() { assertEquals(0, queue.firstElement); }
+    @Test public void canCreateLastElementIndex() { assertEquals(-1, queue.lastElement); }
 
 }

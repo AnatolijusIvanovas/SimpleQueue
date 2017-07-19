@@ -8,6 +8,7 @@ public class SimpleQueue {
 
     public SimpleQueue(int maxSize) {
         this.queue = new int[maxSize];
+        this.maxSize = maxSize;
     }
 
 }

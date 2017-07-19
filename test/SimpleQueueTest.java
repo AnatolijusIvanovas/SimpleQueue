@@ -10,5 +10,8 @@ public class SimpleQueueTest {
     @Test public void canCreateQueueArrayWithMaxLength() {
         assertEquals(25, queue.queue.length);
     }
+    @Test public void canCreateQueueWithMaxSizeParameter() {
+        assertEquals(25, queue.maxSize);
+    }
 
 }

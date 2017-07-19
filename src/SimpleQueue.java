@@ -4,6 +4,7 @@
 public class SimpleQueue {
 
     int[] queue;
+    int maxSize;
 
     public SimpleQueue(int maxSize) {
         this.queue = new int[maxSize];

@@ -17,4 +17,7 @@ public class SimpleQueue {
         this.numberOfElements = 0;
     }
 
+    public void addElement(int element) {
+
+    }
 }

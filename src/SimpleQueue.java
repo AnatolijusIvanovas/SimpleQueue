@@ -6,7 +6,7 @@ public class SimpleQueue {
     int[] queue;
 
     public SimpleQueue(int maxSize) {
-
+        this.queue = new int[maxSize];
     }
 
 }
